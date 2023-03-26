@@ -8,21 +8,6 @@ function Work() {
         <div>
         <Fade bottom>
         <Container>
-            <Row style={{margin: '8rem 0 8rem 0'}}>                    
-            <Col style={{paddingTop: '6%'}} xs={12} md={6}>
-                    <h1 style={{fontSize: '4rem', fontWeight:'600'}}>PWA Dictionary</h1>
-                    <h2 style={{fontSize: '1.3rem', lineHeight: '2rem'}}>Dictionary Prograssive web application, develop with ReactJS, Bootstrap and DictionaryAPI.
-                    Can be used on all platfroms and can install in application format. </h2>      
-                    <a className='github' href='https://wichitsubsamang.github.io/PWA-Dictionary/' target='_blank' rel="noreferrer">Github <ArrowRight size={20} /></a>     
-            </Col>
-                <Col xs={12} md={6} >
-                    <div className='dicapp'></div>
-                </Col>
-            </Row>
-        </Container>
-        </Fade>
-        <Fade bottom>
-        <Container>
             <Row style={{margin: '8rem 0 8rem 0'}}>                     
                 <Col xs={12} md={7} >
                 <h1 style={{fontSize: '4rem', fontWeight:'600'}}>Landing page<br/>website</h1> 

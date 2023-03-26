@@ -19,7 +19,7 @@ function About(){
                         <Row>
                             <Col style={{paddingBottom: '12%'}} xs={12} md={12}>
                                 <h1 style={{fontSize: '2rem', fontWeight:'700'}}>Programing Skills</h1>
-                                <h2 style={{fontSize: '1.5rem', fontWeight:'300', lineHeight: '2.5rem'}}>HTML CSS Javascript <br />ReactJS <br />Bootstrap <br />Asp.NET Core MVC</h2>
+                                <h2 style={{fontSize: '1.5rem', fontWeight:'300', lineHeight: '2.5rem'}}>HTML CSS Javascript <br />ReactJS <br />VueJS <br />Bootstrap <br />Asp.NET Core MVC <br />Firebase <br />Github</h2>
                             </Col>
                             <Col style={{paddingBottom: '12%'}} xs={12} md={12}>
                                 <h1 style={{fontSize: '2rem', fontWeight:'700'}}>Multimedia Skills</h1>
@@ -27,7 +27,7 @@ function About(){
                             </Col>
                             <Col xs={12} md={12}>
                                 <h1 style={{fontSize: '2rem', fontWeight:'700'}}>Soft Skills</h1>
-                                <h2 style={{fontSize: '1.5rem', fontWeight:'300', lineHeight: '2.5rem'}}>Creativity <br />Critical thinking <br />Teamwork <br />Communication <br />Problem solving <br />Never stop learning</h2>
+                                <h2 style={{fontSize: '1.5rem', fontWeight:'300', lineHeight: '2.5rem'}}>Creativity <br />Critical thinking <br />Teamwork <br />Communication <br />Problem solving </h2>
                             </Col>
                         </Row>
                         

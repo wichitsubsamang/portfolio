@@ -20,7 +20,7 @@ function App() {
     <div>
        <Navbar className='justify-content-between' expand='lg'>
           <Container>
-            <Navbar.Brand style={{fontSize: '1.8rem', fontWeight:'600'  }} href='/portfolio'>
+            <Navbar.Brand style={{fontSize: '1.4rem', fontWeight:'600'  }} href='/portfolio'>
               Wichit Subsam-ang
             </Navbar.Brand>
               <Navbar.Toggle aria-controls='basic-navbar-nav' />
