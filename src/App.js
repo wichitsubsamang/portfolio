@@ -20,17 +20,17 @@ function App() {
     <div>
        <Navbar className='justify-content-between' expand='lg'>
           <Container>
-            <Navbar.Brand style={{fontSize: '1.8rem', fontWeight:'600'  }} href='/'>
+            <Navbar.Brand style={{fontSize: '1.8rem', fontWeight:'600'  }} href='/portfolio'>
               Wichit Subsam-ang
             </Navbar.Brand>
               <Navbar.Toggle aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse id='basic-navbar-nav'>
                   <div className='me-auto'></div>
                   <Nav>
-                    <Link className='nav-link' style={{fontSize: '1.2rem', fontWeight:'600' }} to='/'>
+                    <Link className='nav-link' style={{fontSize: '1.2rem', fontWeight:'600' }} to='/portfolio'>
                       Home
                     </Link>
-                    <Link onClick={handleClick} className='nav-link' style={{fontSize: '1.2rem', fontWeight:'600'  }} to='/'>
+                    <Link onClick={handleClick} className='nav-link' style={{fontSize: '1.2rem', fontWeight:'600'  }} to='/portfolio'>
                       Work
                     </Link>
                     <Link className='nav-link' style={{fontSize: '1.2rem', fontWeight:'600'  }} to='/about'>
@@ -41,8 +41,8 @@ function App() {
           </Container>
        </Navbar>
       <div >
-          <Routes >
-            <Route exact path='/' element={(
+          <Routes>
+            <Route exact path='/portfolio' element={(
             <>
               <Home />
               <div ref={ref}><Work /></div>
