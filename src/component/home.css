@@ -20,6 +20,13 @@
     background-repeat: no-repeat;
     height: 650px;
 }
+.srpj {
+    background-image: url('./img/srpj.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 650px;
+}
 .moderno {
     background-image: url('./img/moderno.png');
     background-position: center;
