@@ -1,4 +1,5 @@
 import "./home.css";
+import "./work.css"
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRight } from "react-bootstrap-icons";
 import Fade from "react-reveal/Fade";
@@ -10,12 +11,12 @@ function Work() {
         <Container>
           <Row style={{ margin: "8rem 0 8rem 0" }}>
             <Col xs={12} md={7}>
-              <h1 style={{ fontSize: "4rem", fontWeight: "600" }}>
+              <h1 className="head">
                 Senior project
               </h1>
             </Col>
             <Col style={{ paddingTop: "6%" }} xs={12} md={5}>
-              <h2 style={{ fontSize: "1.3rem", lineHeight: "2rem" }}>
+              <h2 className="detail">
               Senior project for research in the final year at the university.<br />Parallax Website to publicize the Apllied computer science Multimedia major of King Mongkut’s University of Technology Thonburi.
               </h2>
               <a
@@ -27,7 +28,7 @@ function Work() {
                 View <ArrowRight size={20} />
               </a>
             </Col>
-            <Col style={{ paddingTop: "5%" }} xs={12} md={12}>
+            <Col className="imgbx" xs={12} md={12}>
               <div className="srpj"></div>
             </Col>
           </Row>
@@ -37,19 +38,19 @@ function Work() {
         <Container>
           <Row style={{ margin: "8rem 0 8rem 0" }}>
             <Col xs={12} md={7}>
-              <h1 style={{ fontSize: "4rem", fontWeight: "600" }}>
+              <h1 className="head">
                 Landing page
                 <br />
                 website
               </h1>
             </Col>
             <Col style={{ paddingTop: "6%" }} xs={12} md={5}>
-              <h2 style={{ fontSize: "1.3rem", lineHeight: "2rem" }}>
+              <h2 className="detail">
                 Landing page website in my freelance jobs, develop with HTML CSS
                 and Javascript.
               </h2>
             </Col>
-            <Col style={{ paddingTop: "5%" }} xs={12} md={12}>
+            <Col className="imgbx" xs={12} md={12}>
               <div className="landpage"></div>
             </Col>
           </Row>
@@ -62,10 +63,10 @@ function Work() {
               <div className="moderno"></div>
             </Col>
             <Col style={{ paddingTop: "6%" }} xs={12} md={6}>
-              <h1 style={{ fontSize: "4rem", fontWeight: "600" }}>
+              <h1 className="head">
                 Moderno Website
               </h1>
-              <h2 style={{ fontSize: "1.3rem", lineHeight: "2rem" }}>
+              <h2 className="detail">
                 E-commerce website to sell furniture and provide information on
                 home decor, develop with Asp.NET, Bootstrap and SQL Database.
               </h2>
@@ -74,7 +75,7 @@ function Work() {
         </Container>
       </Fade>
       <Fade bottom>
-        <Container className="line"></Container>
+        <Container className="line" style={{width: "90vw"}}></Container>
       </Fade>
       <Container style={{ marginTop: "4rem" }}>
         <h2 style={{ fontSize: "3.5rem", fontWeight: "700" }}>Art work</h2>
@@ -86,8 +87,8 @@ function Work() {
               <div className="td"></div>
             </Col>
             <Col style={{ paddingTop: "10%" }} xs={12} md={4}>
-              <h1 style={{ fontSize: "4rem", fontWeight: "600" }}>3D Model</h1>
-              <h2 style={{ fontSize: "1.3rem", lineHeight: "2rem" }}>
+              <h1 className="head">3D Model</h1>
+              <h2 className="detail">
                 3D modelling with Autodesk MAYA, this model has been used to
                 develop game in Unity.
               </h2>
@@ -97,15 +98,15 @@ function Work() {
       </Fade>
       <Fade bottom>
         <Container>
-          <Row style={{ margin: "5rem 0 1rem 0" }}>
+          <Row style={{ margin: "5rem 0 3rem 0" }}>
             <Col xs={12} md={8}>
               <div className="cass"></div>
             </Col>
             <Col style={{ paddingTop: "10%" }} xs={12} md={4}>
-              <h1 style={{ fontSize: "4rem", fontWeight: "600" }}>
+              <h1 className="head">
                 Cassette Magazine
               </h1>
-              <h2 style={{ fontSize: "1.3rem", lineHeight: "2rem" }}>
+              <h2 className="detail">
                 My group project in Page layout and typography design class.
               </h2>
               <a
@@ -121,7 +122,7 @@ function Work() {
         </Container>
       </Fade>
       <Fade bottom>
-        <Container className="line"></Container>
+        <Container className="line" style={{width: "90vw"}}></Container>
       </Fade>
     </div>
   );

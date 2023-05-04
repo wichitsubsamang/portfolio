@@ -7,19 +7,19 @@ function Home() {
         <div>
             <Fade bottom>
             <Container>
-                <Row style={{margin: '8rem 0 8rem 0'}}>
-                    <Col xs={12} md={6} >
+                <Row className='rw'>
+                    <Col className='lbx' xs={12} md={6} >
                         <div className='img'></div>
                     </Col>
-                    <Col style={{paddingTop: '6%'}} xs={12} md={6}>
-                        <h1 style={{fontSize: '6rem', fontWeight:'700'}}>Hello!</h1>
-                        <h2 style={{fontSize: '3rem'}}>I'm Wichit Subsam-ang, a front-end developer internship.</h2>              
+                    <Col className='rbx' xs={12} md={6}>
+                        <h1 className='hello'>Hello!</h1>
+                        <h2 className='iam'>I'm Wichit Subsam-ang, a front-end web developer.</h2>              
                     </Col>
                 </Row>
             </Container>
             </Fade>
             <Fade bottom>
-            <Container className='line'></Container>
+            <Container className='line'  style={{width: "90vw"}}></Container>
             </Fade>
         </div>
    );

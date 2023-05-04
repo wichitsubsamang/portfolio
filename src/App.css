@@ -16,3 +16,8 @@ h4 {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
+.nav-link {
+  font-size: 1.3rem;
+  text-align: right;
+  height: 50px;
+}

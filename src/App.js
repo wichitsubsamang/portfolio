@@ -27,13 +27,13 @@ function App() {
                 <Navbar.Collapse id='basic-navbar-nav'>
                   <div className='me-auto'></div>
                   <Nav>
-                    <Link className='nav-link' style={{fontSize: '1.2rem', fontWeight:'600' }} to='/portfolio'>
+                    <Link className='nav-link' to='/portfolio'>
                       Home
                     </Link>
-                    <Link onClick={handleClick} className='nav-link' style={{fontSize: '1.2rem', fontWeight:'600'  }} to='/portfolio'>
+                    <Link className='nav-link' onClick={handleClick}  to='/portfolio'>
                       Work
                     </Link>
-                    <Link className='nav-link' style={{fontSize: '1.2rem', fontWeight:'600'  }} to='/about'>
+                    <Link className='nav-link'  to='/about'>
                       About
                     </Link>                    
                   </Nav>

@@ -1,0 +1,103 @@
+.head{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.detail {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.imgbx {
+    padding-top: 5%;
+}
+.img {
+    background-image: url('./img/code1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dicapp {
+    background-image: url('./img/dicapp.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.landpage {
+    background-image: url('./img/landingpage.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.srpj {
+    background-image: url('./img/srpj.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.moderno {
+    background-image: url('./img/moderno.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.td {
+    background-image: url('./img/boat.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    filter: drop-shadow(3px 3px 3px #222);
+}
+.cass {
+    background-image: url('./img/cass.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    filter: drop-shadow(3px 3px 3px #222);
+}
+@media (max-width: 1200px) {
+    .head{
+        font-size: 3.5rem;
+    }
+    .detail {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+@media (max-width: 1000px) {
+    .head{
+        font-size: 3.2rem;
+    }
+    .imgbx {
+        padding-top: 0%;
+    }
+    .srpj {
+        height: 400px;
+    }
+    .landpage {
+        height: 500px;
+    }
+    .moderno {
+        height: 400px;
+    }
+    .td {
+        height: 300px;
+    }
+    .cass {
+        height: 300px;
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+    .head{
+        font-size: 3rem;
+    }
+
+}
