@@ -10,7 +10,7 @@ function About(){
                 <Row style={{margin: '8rem 0 8rem 0'}}>
                     <Col style={{paddingTop: '6%'}} xs={12} md={7}>
                         <h1 className='iam' style={{fontWeight:'700'}}>Wichit Subsam-ang</h1>
-                        <h1 className='hello' style={{ fontWeight:'600'}}>Front-end developer internship</h1><br />
+                        <h1 className='fe' style={{ fontWeight:'600'}}>Front-end developer internship</h1><br />
                         <h2 className='dt' >I'm studying in the 4th year in Apllied computer science Multimedia major of King Mongkut’s University of Technology Thonburi (KMUTT). My main expertise lies in front-end web application development 
                         and I have basic knowledge in multimedia design such as UX/UI design, Graphic design, Video editing and 3D modelling. </h2>
                     </Col>

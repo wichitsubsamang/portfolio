@@ -8,7 +8,7 @@
 .iam {
   font-size: 3rem;
 }
-.hello {
+.fe {
     font-size: 2.7rem;
 }
 .dt {
@@ -17,7 +17,7 @@
     font-weight: 300;
 }
 @media (max-width: 1200px) {
-  .hello {
+  .fe {
     font-size: 1.8rem;
   }
   .iam {
@@ -29,7 +29,7 @@
 }
 }
 @media (max-width: 1000px) {
-  .hello {
+  .fe {
     font-size: 1.5rem;
   }
   .iam {
@@ -41,7 +41,7 @@
 }
 }
 @media (max-width: 576px) {
-  .hello {
+  .fe {
     font-size: 1.2rem;
   }
   .iam {
