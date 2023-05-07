@@ -13,7 +13,7 @@ function Home() {
                     </Col>
                     <Col className='rbx' xs={12} md={6}>
                         <h1 className='hello'>Hello!</h1>
-                        <h2 className='iam'>I'm Wichit Subsam-ang, a front-end web developer.</h2>              
+                        <h2 className='iam'>I'm Wichit Subsam-ang<br/>a front-end web developer.</h2>              
                     </Col>
                 </Row>
             </Container>

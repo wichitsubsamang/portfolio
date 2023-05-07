@@ -1,81 +1,84 @@
 .rw {
-    margin: 8rem 0 8rem 0;
-    height: 100vh;
-    display: grid;
-    place-content: center;
+  margin: 8rem 0 8rem 0;
+  height: 100vh;
+  display: grid;
+  place-content: center;
 }
 .rbx {
-    padding-top: 6%;
+  padding-top: 6%;
 }
-.hello{
-    font-size: 6rem;
-    font-weight: 700;
+.hello {
+  font-size: 6rem;
+  font-weight: 700;
 }
 .iam {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 .line {
-    height: 2px;
-    background-color: rgb(67, 67, 67, 0.5);
+  height: 2px;
+  background-color: rgb(67, 67, 67, 0.5);
 }
 
 .github {
-    text-decoration: none;
-    color: rgb(67, 67, 67, 0.7);
-    font-size: 1.3rem;
+  text-decoration: none;
+  color: rgb(67, 67, 67, 0.7);
+  font-size: 1.3rem;
 }
 
-h1, h2, a {
-    font-family: 'Poppins', sans-serif;
-    transition: 0.5s;
+h1,
+h2,
+a {
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s;
 }
 
 @media (max-width: 1200px) {
-    .rbx {
-        padding-top: 12%;
-    }
-    .hello{
-        font-size: 4rem;
-        font-weight: 700;
-    }
-    .iam {
-        font-size: 2rem;
-    }
+  .rbx {
+    padding-top: 12%;
+  }
+  .hello {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .iam {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 1000px) {
-    .hello{
-        font-size: 3.5rem;
-        font-weight: 700;
-    }
-    .iam {
-        font-size: 1.7rem;
-    }
+  .hello {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+  .iam {
+    font-size: 1.7rem;
+  }
 }
 @media (max-width: 768px) {
-    .rbx {
-        padding-top: 0%;
-        height: 50vh;
-    }
-    .lbx {
-        height: 50vh;
-    }
-    .img {
-        height: 300px;
-    }
-    .rw {
-        display: inline-block;
-        place-content: start;
-    }
+  .rbx {
+    padding-top: 0%;
+    height: 50vh;
+    text-align: center;
+  }
+  .lbx {
+    height: 50vh;
+  }
+  .img {
+    height: 300px;
+  }
+  .rw {
+    display: inline-block;
+    place-content: start;
+  }
 }
 @media (max-width: 576px) {
-    .rw {
-        margin: 1rem 0 1rem 0;
-    }
-    .hello{
-        font-size: 3rem;
-        font-weight: 700;
-    }
-    .iam {
-        font-size: 1.5rem;
-    }
+  .rw {
+    margin: 1rem 0 1rem 0;
+  }
+  .hello {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .iam {
+    font-size: 1.5rem;
+  }
 }
