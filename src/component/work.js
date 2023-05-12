@@ -21,7 +21,7 @@ function Work() {
               </h2>
               <a
                 className="github"
-                href="https://cit.kmutt.ac.th/prj62/cmm_pr"
+                href="https://main--relaxed-medovik-659273.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
